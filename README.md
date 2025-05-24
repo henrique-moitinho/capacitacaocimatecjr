@@ -51,8 +51,13 @@ Se quiser publicar, você pode usar o [GitHub Pages](https://pages.github.com/) 
 
 1. Clone o repositório:
 
-```bash
+bash
 git clone https://github.com/henrique-moitinho/capacitacaocimatecjr.git
+
+2. Navegue até o diretório:
+
+cd capacitacaocimatecjr
+3. Abra o arquivo index.html no seu navegador.
 
 🔧 Estrutura do Projeto
 
@@ -86,5 +91,6 @@ Nome: Henrique Moitinho
 Email: [henrique.moitinho.cimatecjr@gmail.com]
 
 GitHub: https://github.com/henrique-moitinho
+
 
 
