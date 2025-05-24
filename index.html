@@ -245,3 +245,20 @@
       margin: 0.3rem 0;
     }
   </style>
+  <script>
+    let currentIndex = 0;
+    const slides = document.getElementById("slides");
+    const totalSlides = slides.children.length;
+
+    function updateSlide() {
+      slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      updateSlide();
+    }, 4000);
+  </script>
+
+</body>
+</html>
